@@ -4,4 +4,4 @@ rollback,
 fullPrice,
 adaptive;
 alert("первый урок");
-console.log("первый урок")
+console.log("первый урок hh")
