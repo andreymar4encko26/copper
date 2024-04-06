@@ -1,49 +1,136 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>COPPER+</title>
 </head>
+
 <body>
-    <div class="content">
-        <h1>команды Git </h1>
-        <div class="comands">
-            <ul class="list__comands">
-                <li class="item comands">
-                    git init — создает репозиторий в текущей папке
-                </li>
-                <li class="item comands">
-                    ggit commit -m «Name of commit» — зафиксировать в коммите проиндексированные изменения (закоммитить), добавить сообщение
-                <li class="item comands">
-                    git checkout -b имя ветки - добавляет ветку
-                </li>
-                <li class="item comands">
-                    git checkout имя ветки -меняет ветку
-                </li>
-                <li class="item comands">
-                    git push origin имя ветки пушит ветку в репозиторий
-                </li>
-                <li class="item comands">
-                    git add . — добавить все файлы в отслеживаемые
-                </li>
-                <li class="item comands">
-                    git log — посмотреть историю коммитов
-                </li>
-                <li class="item comands">
-                    git status — статус коммита
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="" class="nav__link logo">
+                                <img src="" alt="логотип" class="logo__img">
+                                <span class="logo__text">Copper Pro</span>
+                            </a>
+                        </li>
+                        <li class="nav__item"> <a href="" class="nav__link">Католог</a> </li>
+                        <li class="nav__item"> <a href="" class="nav__link">Новости</a></li>
+                        <li class="nav__item"> <a href="" class="nav__link">Доставка</a></li>
+                        <li class="nav__item"> <a href="" class="nav__link">о нас</a></li>
+                        <li class="nav__item"> <a href="" class="nav__link">контакты</a></li>
 
-                </li>
-                <li class="item comands">
-                    git pull origin master — влить изменения с удалённого репозитория (только указанная ветка)
+                    </ul>
+                </nav>
+                <div class="header__top-info">
+                    <ul class="top__info-list">
+                        <li class="top__info-item">
+                            <button class="top__info-btn"></button>
+                        </li>
+                        <li class="top__info-item">
+                            <button class="top__info-btn"></button>
+                        </li>
+                        <li class="top__info-item">
+                            <button class="top__info-btn"></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__main">
+                <div class="header__main-left">
+                    <h1 class="title">Хит продаж</h1>
+                    <div class="header__main-text">
+                        <span class="header__main-paragraph">
+                            Дистилятор для эфирных масел
 
-                </li>
-                
-                
-                
-            </ul>
+                        </span>
+                        <div class="header__main-info">
+                            <span class="header__main-prise">цена</span>
+                            <span class="header__main-number">4906 грн</span>
+                            <div class="header__main-btn">Купить</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </header>
+<main class="main">
+   <div class="container">
+    <div class="section hero">
+        <h2 class="hero__title">Наша продукция</h2>
+        <ul class="catolog">
+            <li class="catalog__list">
+                <a href="" class="catolog__link">
+                    <div href="#" class="catalog__card">
+                        <div class="catalog__img">
+                            <img src="" alt="">
+                        </div>
+                        <span class="catolog__text">Для эфирных масел</span>
+
+                    </div>
+                </a>
+            </li>
+            <li class="catalog__list">
+                <a href="" class="catolog__link">
+                    <div href="#" class="catalog__card">
+                        <div class="catalog__img">
+                            <img src="" alt="">
+                        </div>
+                        <span class="catolog__text">Для эфирных масел</span>
+
+                    </div>
+                </a>
+            </li><li class="catalog__list">
+                <a href="" class="catolog__link">
+                    <div href="#" class="catalog__card">
+                        <div class="catalog__img">
+                            <img src="" alt="">
+                        </div>
+                        <span class="catolog__text">Для эфирных масел</span>
+
+                    </div>
+                </a>
+            </li><li class="catalog__list">
+                <a href="" class="catolog__link">
+                    <div href="#" class="catalog__card">
+                        <div class="catalog__img">
+                            <img src="" alt="">
+                        </div>
+                        <span class="catolog__text">Для эфирных масел</span>
+
+                    </div>
+                </a>
+            </li><li class="catalog__list">
+                <a href="" class="catolog__link">
+                    <div href="#" class="catalog__card">
+                        <div class="catalog__img">
+                            <img src="" alt="">
+                        </div>
+                        <span class="catolog__text">Для эфирных масел</span>
+
+                    </div>
+                </a>
+            </li><li class="catalog__list">
+                <a href="" class="catolog__link">
+                    <div href="#" class="catalog__card">
+                        <div class="catalog__img">
+                            <img src="" alt="">
+                        </div>
+                        <span class="catolog__text">Для эфирных масел</span>
+
+                    </div>
+                </a>
+            </li>
+        </ul>
     </div>
-    <script src="./js/main.js"></script>
+   </div>
+</main>
 </body>
+
 </html>
