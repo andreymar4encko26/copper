@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Lighthaus';
+    src: url('../fond/Lighthaus.eot');
+    src: local('Lighthaus'),
+        url('../fond/Lighthaus.eot?#iefix') format('embedded-opentype'),
+        url('../fond/Lighthaus.woff2') format('woff2'),
+        url('../fond/Lighthaus.woff') format('woff'),
+        url('../fond/Lighthaus.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

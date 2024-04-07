@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Mont';
 }
 ul,li{
     padding: 0;
@@ -11,31 +12,42 @@ a{
     text-decoration: none;
     color: inherit;
 }
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
 .container{
-    max-width: 1200px;
+    max-width: 1475px;
     margin: 0 auto;
 }
 .header{
-    background-color: aquamarine;
-    height: 150vh;
+    background: linear-gradient(97deg, rgb(142, 183, 158) 0%, rgb(75, 113, 89) 100%);
+    background: url(../img/BG.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 98vh;
     color: #fff;
+    font-size: 16px;
 }
 .header__top{
     display: flex;
     justify-content: space-between;
-    background-color: aquamarine;
+    padding-top: 7px;
+    align-items:center;
     font-size: 18px;
 }
 .logo{
-    display: flex;
+    
 }
 .logo__img{
-    background-color: red;
-    width: 24px;
-    height: 17px;
-    margin-right: 20px;
-    display: inline-block;
-   
+    
+width: 160px;
+    
+height: 43px;
+    
+/* margin-right: 20px; */
+    
+display: inline-block;
 }
 .logo__text{
     display: inline-block;
@@ -43,64 +55,135 @@ a{
 }
 .nav__list{
     display: flex;
+    align-items: center     ;
 }
 .nav__item{
-    margin: 0 20px;
+    margin: -5px 29px;
 }
 .top__info-list{
     display: flex;
+    margin-left: 37px;
 }
 .top__info-btn{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 88px;
     background-color: #fff;
     border: none;
-    margin: 0 10px;
+    margin: 12px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .title{
-    max-width: 400px;
-    font-size: 60px;
+    font-family: 'Lighthaus';
+    max-width: 700px;
+    font-size: 100px;
     border-bottom: 1px solid #fff;
-    padding: 0 0 20px 0;
+    padding: 0px 0 20px 24px;
+    margin: 82px 0 0 0;
 }
 .header__main-text{
-    font-size: 20px;
-    max-width: 150px;
-    line-height: 30px;
+    font-size: 50px;
+    max-width: 553px;
+    line-height: 96%;
     font-weight: 700;
+    letter-spacing: 0px;
+    padding: 0px 0 0 26px;
+    margin: 53px 0 0 0;
+}
+.header__main-info{
+    margin-top: 21px;
+    font-weight: 400;
 }
 .header__main-prise{
-    font-size: 16px;
+    font-size: 30px;
     font-weight: normal;
-    margin-right: 30px;
+    margin-right: 105px;
 }
 .header__main-number{
-    font-size: 16px;
+    font-size: 30px;
+    font-weight: 800;
 }
 .header__main-btn{
-    width: 160px;
-    background-color: red;
+    width: 327px;
     text-align: center;
-    margin-top: 25px;
+    margin-top: 32px;
+    font-family: Mont;
+    font-size: 18px;
+    background: linear-gradient(150.16deg, rgb(94, 57, 40) 19.981%,rgb(228, 161, 111) 92.915%);
 }
 .hero__title{
-    font-size: 25px;
+    font-size: 50px;
     text-align: center;
+    font-family: 'Lighthaus';
+    color: rgb(3, 20, 18);
+    margin-top: 64px;
 }
 
 
 .catalog__list{
-    flex-basis: 33%;
+    flex-basis: 32%;
 }
 .catolog{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 73px 0 0 36px;
 }
 .catalog__card{
-    background-color: aqua;
-    max-width: 370px;
+    position: relative;
+    background: linear-gradient(180.00deg, rgba(7, 44, 38, 0.5),rgba(7, 44, 38, 0) 100%);
+    max-width: 445px;
     min-width: 130px;
-    height: 350px;
-    margin-bottom: 36px;
+    height: 415px;
+    margin-bottom: 107px;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
+.catolog__text{
+ font-size: 30px;
+ position: absolute;
+ bottom: 10px;
+ left: 26px;
+ z-index: 1;
+ color: #fff;
+}
+.theBEst{
+    font-family: Mont;
+}
+.theBEst__title{
+    font-family: Lighthaus;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 74.9%;
+    color: rgb(3, 20, 18);
+    text-align: center;
+    margin: 88px 0 0 0;
+}
+.theBest__list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 23px;
+}
+.theBest__card{
+    display: flex;
+    flex-direction: column;
+    min-height: 567px;
+    margin: 0 9px;
+    margin-top: 40px;
+}
+.theBest__info{
+    margin-top: 21px;
+}
+.theBEst__name{
+    display: inline-block;
+    font-size: 20px;
+    max-width: 319px;
+}
+.theBest__prise{
+    font-size: 31px;
+    font-weight: 800;
 }
